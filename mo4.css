@@ -71,7 +71,7 @@ p{
         180deg, 
         darkred,
         cyan
-      )  100%;
+      );
       border-image-slice: 1;
 }
 .second{
@@ -84,6 +84,6 @@ p{
         360deg, 
         blue,
         red 
-      )  100%;
+      );
       border-image-slice: 1;
 }
