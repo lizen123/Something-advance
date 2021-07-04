@@ -1,0 +1,89 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+.highlight{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.text{
+    margin: 40px;
+    padding: 50px;
+    width: 50%;
+    
+}
+.image img{
+ width: 80%;
+}
+.button{
+    font-weight: 700;
+    background-image:linear-gradient(45deg, lightSalmon, tomato) ;
+    text-decoration: none;
+    padding: 10px 40px;
+    color:whitesmoke;
+}
+.ex-bg{
+    background-image: url(ex-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.dream-bg{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+p{
+    font-size: 20px;
+}
+.text2{
+    margin: 40px;
+    width: 50%;
+    padding: 70px;
+}
+.image2 img{
+    width: 500px;
+}
+.button2{
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 8px 35px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+.wish{
+    padding: 30px;
+    background-image: url(ex-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+
+}
+.first{
+    box-shadow: 10px 10px 40px saddlebrown;
+    border-left: 7px solid ;
+    margin: 40px;
+    padding: 20px;
+    border-image: 
+      linear-gradient(
+        180deg, 
+        darkred,
+        cyan
+      )  100%;
+      border-image-slice: 1;
+}
+.second{
+    box-shadow: 10px 10px 40px saddlebrown;
+    border-left: 7px solid;
+    margin: 40px;
+    padding: 20px;
+    border-image: 
+      linear-gradient(
+        360deg, 
+        blue,
+        red 
+      )  100%;
+      border-image-slice: 1;
+}
