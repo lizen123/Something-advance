@@ -35,8 +35,9 @@ body{
 .button{
     text-decoration: none;
     padding: 10px;
-    background-image: linear-gradient(90deg,red,cyan);
+    background-image: linear-gradient(90deg,#00d4ff,#790965,#282644);
     font-size: 30px;
+    color: greenyellow;
 }
 h1{
     font-size: 40px;
@@ -91,4 +92,13 @@ p{
       background-color: black;
       color: lightblue;
       margin-left: 130px;
+}
+.foot{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.highlight1{
+    text-shadow: 3px 1px darkviolet;
 }
